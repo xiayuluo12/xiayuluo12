@@ -1,0 +1,5 @@
+>>> ellipsis_text = (
+...     "Gus, can you, ... never mind, I forgot"
+...     " what I was saying. So, do you think"
+...     " we should ..."
+... )
