@@ -1,0 +1,14 @@
+}
+
+Game::Game()
+{
+	score = 0;
+	_id = 0;
+	top = 58;
+	speed = 1000;
+}
+
+void Game::showMenu()
+{
+	for (int i = 0; i < 30; i++)
+	{
