@@ -1,0 +1,15 @@
+	for (int i = 0; i < 30; i++)
+	{
+		for (int j = 0; j < 26; j++)
+		{
+			if ((i == 0 || i == 29) || (j == 0 || j == 25))
+			{
+				cout << "■";
+			}
+			else
+			{
+				cout << "  ";
+			}
+		}
+		cout << endl;
+	}
