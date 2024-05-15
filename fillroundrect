@@ -1,0 +1,6 @@
+					else
+					{
+						fillroundrect(P->x, P->y, P->x + 10, P->y - 35, 10, 30);
+						P->y -= 10;
+						P = P->pnext;
+					}
