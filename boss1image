@@ -1,0 +1,11 @@
+			else if (boss1show == 1)
+			{
+				if (boss1image > boss1h)
+				{
+					if ((P->y) < boss1h && (P->y) >= 0 && (P->x - (WINDOW_WIDTH / 2 - boss1w / 2)) < boss1w - 3 && (P->x - (WINDOW_WIDTH / 2 - boss1w / 2)) >= -7)
+					{
+						P->y = APStart -100;
+						P = P->pnext;
+						boss1hp--;
+						if (boss1hp>9||boss1hp<7)	PlaySound(L"Bomb.wav", NULL, SND_FILENAME | SND_ASYNC);
+					}
