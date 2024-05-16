@@ -1,0 +1,12 @@
+using namespace std;
+ 
+#define SAFE_DELETE(p) if (p) { delete p; p = NULL; }
+ 
+class Receiver
+{
+public:
+     void Action()
+     {
+          cout<<"Receiver->Action"<<endl;
+     }
+};
