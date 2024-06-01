@@ -1,0 +1,10 @@
+        if(f==0)// 
+        {
+            gameover(head);s[num].SCORE=score;num++;if(num==10) num=1;
+            msort(s,num+1);
+            goto L;
+        }
+        b_Fly();Fly();Planefly(); 
+    }
+    return 0;
+ }
