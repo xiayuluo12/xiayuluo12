@@ -1,0 +1,15 @@
+bool running = true;
+int ip = 0;
+ 
+// instruction enum here
+ 
+// eval function here
+ 
+// fetch function here
+ 
+int main() {
+  while (running) {
+    eval(fetch());
+    ip++; // increment the ip every iteration
+  }
+}
